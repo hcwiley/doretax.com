@@ -73,32 +73,34 @@ export default function Layout({ children, home }) {
       <div id="footer" class="gradient-gray">
         <div class="all-caps">
           <h3>
-            <a class="bottom-link" href="index.html">
-              dor&eacute; &amp; company <span class="number">2020</span>
-              <br />
-            </a>
-            <a class="bottom-link" href="privacy.html">
+            <Link class="bottom-link" href="/">
+              <div>
+                dor&eacute; &amp; company <span class="number">2020</span>
+                <br />
+              </div>
+            </Link>
+            <Link class="bottom-link" href="privacy">
               privacy
-            </a>
+            </Link>
             <br />
           </h3>
         </div>
         <div class="small all-caps">
-          <a class="bottom-link" href="index.html">
+          <Link class="bottom-link" href="/">
             <h3>home</h3>
-          </a>
-          <a class="bottom-link" href="about.html">
+          </Link>
+          <Link class="bottom-link" href="/about">
             <h3>about</h3>
-          </a>
-          <a class="bottom-link" href="client-resources.html">
+          </Link>
+          <Link class="bottom-link" href="/client-resources">
             <h3>client resources</h3>
-          </a>
-          <a class="bottom-link" href="community.html">
+          </Link>
+          <Link class="bottom-link" href="/community">
             <h3>community</h3>
-          </a>
-          <a class="bottom-link" href="contact.html">
+          </Link>
+          <Link class="bottom-link" href="/contact">
             <h3>contact</h3>
-          </a>
+          </Link>
         </div>
         <div>
           <h3>

@@ -48,11 +48,7 @@ export default function Home() {
 
             <li>National Society of Enrolled Agents</li>
 
-            <li>
-              <a class="no-link" href="http://www.naea.org/">
-                National Society of Public Accountants
-              </a>
-            </li>
+            <li>National Society of Accountants</li>
           </ul>
         </div>
       </section>
