@@ -44,10 +44,10 @@ export default function ClientResources() {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <div class="page-heading-text">
+        <div className="page-heading-text">
           <p>Client Resources</p>
         </div>
-        <div class="copy">
+        <div className="copy">
           {resources.map(({ title, link, phone, copy }) => (
             <div>
               <h4>

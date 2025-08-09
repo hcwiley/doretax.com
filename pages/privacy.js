@@ -10,13 +10,13 @@ export default function Privacy() {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <div class="page-heading-text">
+        <div className="page-heading-text">
           <p>
             Dor&eacute; &amp; Compnany Privacy Policy
             <br />
             <br />
           </p>
-          <p class="normal">
+          <p className="normal">
             Like all providers of personal financial services, they are now
             required by law to inform their clients of their policies regarding
             privacy of client information. We have been and continue to be bound
@@ -25,9 +25,9 @@ export default function Privacy() {
             protected your right to privacy.
           </p>
         </div>
-        <div class="copy">
+        <div className="copy">
           <br />
-          <h2 class="all-caps">
+          <h2 className="all-caps">
             types of nonpublic personal information we collect
           </h2>
           <p>
@@ -36,7 +36,7 @@ export default function Privacy() {
           </p>
           <br />
           <br />
-          <h2 class="all-caps">parties to whom we disclose information</h2>
+          <h2 className="all-caps">parties to whom we disclose information</h2>
           <p>
             For current and former clients, we do not disclose any nonpublic
             personal information obtained in the course of our practice except
@@ -49,7 +49,7 @@ export default function Privacy() {
           </p>
           <br />
           <br />
-          <h2 class="all-caps">
+          <h2 className="all-caps">
             protecting the confidentiality and security of current and former
             clients' information
           </h2>

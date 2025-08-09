@@ -29,105 +29,105 @@ export default function Layout({ children, home }) {
       <div id="header">
         <div id="stripe"></div>
         <div id="logo">
-          <img src="logo.png" alt="logo image" />
-          <div class="text">
-            <h3 class="all-caps">lloyd f. dor&eacute; iii</h3>
+          <img src="/logo.png" alt="logo image" />
+          <div className="text">
+            <h3 className="all-caps">lloyd f. dor&eacute; iii</h3>
             <h1>Dor&eacute; &amp; Company</h1>
             <h4>Tax, Accounting and Business Services</h4>
           </div>
         </div>
       </div>
-      <div id="contact-bar" class="gradient-gray">
+      <div id="contact-bar" className="gradient-gray">
         <div>
           <h5>
-            <span class="all-caps">email: </span>
-            <a class="no-link" href="mailto:L3dore@doretax.com">
-              <span class="all-caps">
-                l<span class="number">3</span>dore
+            <span className="all-caps">email: </span>
+            <a className="no-link" href="mailto:L3dore@doretax.com">
+              <span className="all-caps">
+                l<span className="number">3</span>dore
               </span>
               @doretax.com
             </a>
             &nbsp;&nbsp;|&nbsp;&nbsp;{" "}
-            <span class="all-caps">tel &amp; fax: </span>
-            <a class="no-link" href="tel:3378935400">
-              <span class="number">(337) 893 5400</span>
+            <span className="all-caps">tel &amp; fax: </span>
+            <a className="no-link" href="tel:3378935400">
+              <span className="number">(337) 893 5400</span>
             </a>{" "}
           </h5>
         </div>
       </div>
 
       <div id="image-banner">
-        <img src="lloyd.jpg" alt="Lloyd working at his desk." />
+        <img src="/lloyd.jpg" alt="Lloyd working at his desk." />
         <img
-          class="middle"
-          src="outside-sign.jpg"
+          className="middle"
+          src="/outside-sign.jpg"
           alt="Front of office and sign"
         />
-        <img src="sign.jpg" alt="office corner street signs" />
+        <img src="/sign.jpg" alt="office corner street signs" />
       </div>
       <div id="main">
         <Nav />
-        <div class="center">{children}</div>
+        <div className="center">{children}</div>
         <HistoryColumn />
       </div>
-      <div id="footer" class="gradient-gray">
-        <div class="all-caps">
+      <div id="footer" className="gradient-gray">
+        <div className="all-caps">
           <h3>
-            <Link class="bottom-link" href="/">
+            <Link className="bottom-link" href="/">
               <div>
-                dor&eacute; &amp; company <span class="number">2020</span>
+                dor&eacute; &amp; company <span className="number">2020</span>
                 <br />
               </div>
             </Link>
-            <Link class="bottom-link" href="privacy">
+            <Link className="bottom-link" href="privacy">
               privacy
             </Link>
             <br />
           </h3>
         </div>
-        <div class="small all-caps">
-          <Link class="bottom-link" href="/">
+        <div className="small all-caps">
+          <Link className="bottom-link" href="/">
             <h3>home</h3>
           </Link>
-          <Link class="bottom-link" href="/about">
+          <Link className="bottom-link" href="/about">
             <h3>about</h3>
           </Link>
-          <Link class="bottom-link" href="/client-resources">
+          <Link className="bottom-link" href="/client-resources">
             <h3>client resources</h3>
           </Link>
-          <Link class="bottom-link" href="/community">
+          <Link className="bottom-link" href="/community">
             <h3>community</h3>
           </Link>
-          <Link class="bottom-link" href="/contact">
+          <Link className="bottom-link" href="/contact">
             <h3>contact</h3>
           </Link>
         </div>
         <div>
           <h3>
-            <span class="all-caps">
+            <span className="all-caps">
               email:{" "}
-              <a class="no-link" href="mailto:L3dore@doretax.com">
-                <span class="all-caps">
-                  l<span class="number">3</span>dore
+              <a className="no-link" href="mailto:L3dore@doretax.com">
+                <span className="all-caps">
+                  l<span className="number">3</span>dore
                 </span>
                 @doretax.com
               </a>
             </span>
           </h3>
-          <h3 class="all-caps">
+          <h3 className="all-caps">
             tel &amp; fax:{" "}
-            <a class="no-link" href="tel:3378935400">
-              <span class="number">(337) 893 5400</span>
+            <a className="no-link" href="tel:3378935400">
+              <span className="number">(337) 893 5400</span>
             </a>
           </h3>
         </div>
-        <div class="all-caps">
+        <div className="all-caps">
           <h3>
-            <span class="number">404</span> pere megret street
+            <span className="number">404</span> pere megret street
             <br />
-            p.o. box <span class="number">935</span>
+            p.o. box <span className="number">935</span>
             <br />
-            abbeville, la <span class="number">70511</span>
+            abbeville, la <span className="number">70511</span>
           </h3>
         </div>
       </div>

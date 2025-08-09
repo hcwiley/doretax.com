@@ -5,8 +5,7 @@ import Layout, { siteTitle } from "../components/layout"
 
 const links = [
   {
-    link:
-      "http://www.savethefranks.com/?fbclid=IwAR3eJS8L_Jt6g1DkgkqCHEh9vbJ4bVAMJJCcxyoj1cx6bh40_UxnqSlp-_I",
+    link: "http://www.savethefranks.com/",
     title: "Allume Society (Friends of Historic Downtown Abbeville)",
   },
   {
@@ -30,7 +29,7 @@ const links = [
     title: "Abbey Players Theatre",
   },
   {
-    link: "http://www.abbevillemuseums.org/acadian/default.html",
+    link: "https://www.usainteanne.ca/en/academics/learn-french/spring-and-summer-french-immersion-sessions",
     title:
       "Acadian Centre Acadien: French Immersion Scholarship to study at the University Sainte-Anne, Nova Scotia, Canada",
   },
@@ -43,12 +42,8 @@ const links = [
     title: "Rotary International/District 6200",
   },
   {
-    link: "https://www.vermilionartscouncil.org/",
-    title: "Vermilion Arts Council",
-  },
-  {
-    link: "https://www.facebook.com/VC-Carmel-May-Fest-297568730954670/",
-    title: "Vermilion/Carmel May Festival – Facebook page",
+    link: "https://www.facebook.com/VermilionArtsCouncil/",
+    title: "Vermilion Arts Council – Facebook page",
   },
   {
     link: "http://www.vermilionchamber.org/",
@@ -62,6 +57,18 @@ const links = [
     link: "https://www.facebook.com/vermilionparishhistorical/",
     title: "Vermilion Historical Society – Facebook page",
   },
+  {
+    link: "https://www.vermilioncatholic.com/",
+    title: "Vermilion Catholic, A Legacy of Mt. Carmel",
+  },
+  {
+    link: "https://www.lamilitarymuseum.org/",
+    title: "Louisiana Military Museum",
+  },
+  {
+    link: "https://www.frverbislafleur.com/",
+    title: "Fr. J. Verbis Lafleur (Abbeville’s Hero Priest) website",
+  },
 ]
 
 export default function Community() {
@@ -71,14 +78,14 @@ export default function Community() {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <div class="page-heading-text">
+        <div className="page-heading-text">
           <p>
             Below is a list of associations, organizations and resources in
             Abbeville, Louisiana.
           </p>
         </div>
-        <div class="copy">
-          <h2 class="all-caps">community associations</h2>
+        <div className="copy">
+          <h2 className="all-caps">community associations</h2>
           <ul>
             {links.map(({ title, link }) => (
               <li>

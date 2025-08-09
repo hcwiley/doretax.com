@@ -10,7 +10,7 @@ export default function About() {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <div class="page-heading-text">
+        <div className="page-heading-text">
           <p>
             I believe in the value of relationships. I view every client
             relationship as a partnership and truly believe that our success
@@ -18,9 +18,9 @@ export default function About() {
             <br />
           </p>
         </div>
-        <div class="copy">
+        <div className="copy">
           <br />
-          <h2 class="all-caps">professionalism and service to clients</h2>
+          <h2 className="all-caps">professionalism and service to clients</h2>
           <p>
             Dor&eacute; &amp; Company offers a wide range of services to
             individual and business clients. Because this firm is relatively
@@ -30,8 +30,8 @@ export default function About() {
           </p>
           <br />
           <br />
-          <h2 class="all-caps">
-            dor&eacute; <span class="number">&amp;</span> company offers theses
+          <h2 className="all-caps">
+            dor&eacute; <span className="number">&amp;</span> company offers theses
             services to its clients:
           </h2>
           <ul>

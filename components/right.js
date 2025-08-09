@@ -1,7 +1,7 @@
 export default function HistoryColumn() {
   return (
-    <div class="right">
-      <h2 class="all-caps">historic abbeville</h2>
+    <div className="right">
+      <h2 className="all-caps">historic abbeville</h2>
 
       <p>
         Formerly called La Chapelle, the land that was to become Abbeville was

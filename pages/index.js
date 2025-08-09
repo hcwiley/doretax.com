@@ -11,19 +11,19 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <div class="page-heading-text">
+        <div className="page-heading-text">
           <p>
             Thank you for visiting our website. Our dedication to quality client
             service has brought us to the Internet as we endeavor to provide the
             highest quality professional service and guidance.
           </p>
         </div>
-        <div class="copy">
+        <div className="copy">
           <br />
-          <h2 class="all-caps">lloyd f. dor&eacute; iii</h2>
+          <h2 className="all-caps">lloyd f. dor&eacute; iii</h2>
           <p>
-            <span class="all-caps">With over </span>
-            26 years of experience in tax and accounting, I have long maintained
+            <span className="all-caps">With over </span>
+            40 years of experience in tax and accounting, I have long maintained
             a commitment to providing unequaled service to clients and service
             to the community. I am committed to providing close, personal
             attention to clients. I take pride in giving you the assurance that
@@ -38,7 +38,7 @@ export default function Home() {
           <br />
         </div>
         <div id="pro">
-          <h2 class="all-caps">professional associations</h2>
+          <h2 className="all-caps">professional associations</h2>
           <ul>
             <li>Accredited Tax Advisor</li>
 
