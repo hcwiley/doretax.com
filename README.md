@@ -11,6 +11,10 @@ npm install
 npm run dev
 ```
 
-## Delpoying
+## Deploying
 
 This should happen automagically thanks to NextJS and Vercel!
+
+```bash
+npm run build
+```
