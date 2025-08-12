@@ -16,5 +16,11 @@ npm run dev
 This should happen automagically thanks to NextJS and Vercel!
 
 ```bash
-npm run build
+vercel --prod
+```
+
+You might need to login:
+
+```bash
+vercel login
 ```
